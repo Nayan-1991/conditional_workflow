@@ -97,5 +97,5 @@ jobs:
           key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
       - name: Report failure
         run: |
-          echo "Build failed. Please check the logs for details."
+          echo "Builds failed. Please check the logs for details."
           echo "${{ toJson(github) }}"
