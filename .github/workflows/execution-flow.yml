@@ -80,6 +80,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Report failure
-      run: |
-        echo "Build failed. Please check the logs for details."
-        echo "${{ github }}"
+        run: |
+          echo "Build failed. Please check the logs for details."
+          echo "${{ github }}"
